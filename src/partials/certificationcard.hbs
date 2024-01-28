@@ -1,0 +1,25 @@
+<div class="cerification__item">
+    <div class="cerification__header">
+        <div class="cerification__logo">
+            <img src={{this.logo}} alt={{this.source}}>    
+        </div>
+        <div class="cerification__title">{{this.title}}</div>
+    </div>
+    <hr class="cert-line">
+    <div class="cerification__body">
+        {{#if this.details}}
+        <div class="cerification__details">
+            <p>{{this.details}}</p>
+        </div>
+        {{/if}}
+        {{#if this.subtopics}}
+        <ul class="subtoics">
+            {{#each this.subtopics}}
+                <li><a href="{{this.suburl}}" target="_blank">{{this.title}}</a></li>
+            {{/each}}
+        </ul>
+        {{/if}}
+    </div>
+    <a href="{{this.url}}" target="_blank" class="btn btn-sm">view details</a>
+    <br>
+</div>

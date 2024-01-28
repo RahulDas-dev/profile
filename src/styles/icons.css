@@ -1,0 +1,28 @@
+.icon-menu {
+  background: url('../assets/menu.svg');
+}
+
+.icon-projects{
+  background: url('../assets/projects.svg');
+}
+
+.icon-education{
+  background: url('../assets/education.svg');
+}
+
+.icon-contacts{
+  background: url('../assets/contacts.svg');
+}
+
+.icon-experience{
+  background: url('../assets/experience.svg');
+}
+
+.svg-icon {
+  @apply font-normal not-italic text-base inline-block leading-4 normal-case tracking-normal whitespace-normal bg-no-repeat bg-cover antialiased;
+  opacity: 0.7;
+  height: 20px;
+  width: 20px;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+}

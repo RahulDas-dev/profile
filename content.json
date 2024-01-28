@@ -1,0 +1,183 @@
+{   
+    "pagetitle":"Rahul Das - Data Scientist | Machine Learning, Data Science, Deep Learning",
+    "metatag":{
+      "keywords": "Rahul Das, Data Scientist, Machine Learning, Data Science, Deep Learning, AI, Artificial Intelligence, Predictive Analytics, Statistical Modeling, Data Analysis, Python, Neural Networks, Natural Language Processing, Computer Vision, Data-driven Decision Making, 11 years experience, Portfolio, Data Mining, Feature Engineering, Model Deployment, Industry Expertise, Data Visualization, Problem Solving",
+      "og_description": "Experienced Data Scientist with 11 years in the industry, specializing in Machine Learning, Data Science, and Deep Learning. Proven track record of delivering impactful solutions and driving business insights through advanced analytics. Explore my portfolio to see how I've applied my expertise to solve complex problems and contribute to the success of various projects and organizations.",
+      "title": "Rahul Das - Data Scientist | Machine Learning, Data Science, Deep Learning"
+    },
+    "personal": {
+        "name" : "Rahul Das",
+        "dob" : "13-03-1988",
+        "address":{
+            "line" : "Andul Road ",
+            "city": "Kolkata",
+            "state": "West Bengal",
+            "country": "India",
+            "pin":"711109"
+        },
+        "github":"https://github.com/RahulDas-dev",
+        "twitter":"https://twitter.com/Rahul13031988",
+        "linkedin":"https://www.linkedin.com/in/rahul-das-15416570",
+        "mobile": "8097397804",
+        "mail":"r.das699@gmail.com"
+    },
+    "title": "Hi, I am Rahul",
+    "sub_title" : "Data Science, ML Engineer",
+    "content": "I have been an Associate of Tata Consultancy Services [TCS] since July 2012. I have 4 years of experience in data science and machine learning projects. During my work, I  gained technical knowledge in the fields of computer vision, image processing, and NLP",
+    "experience":{
+        "title": "Work Experience",
+        "sub_title":"Work Experience",
+        "items":[
+          {
+            "desig":"Assistant Consultant",
+            "role": "Data Scientist & ML Engineer",
+            "date":"Jun 2021",
+            "task":[
+              "Handling Various Data source for building ML piplelines",
+              "Segmentation and cluserting on various reatil product database"
+            ]
+          },
+          {
+            "desig":"IT Analyst",
+            "role": "Data Scientist & ML Engineer",
+            "date":"Aug 2016",
+            "task":[
+              "Handling Various Data source for building ML piplelines",
+              "Segmentation and cluserting on various reatil product database"
+            ]
+          },
+          {
+            "desig":"System Engineer",
+            "role": "Backend Engineer",
+            "date":"Aug 2014",
+            "task":[
+              "Handling Various Data source for building ML piplelines",
+              "Segmentation and cluserting on various reatil product database"
+            ]
+          },
+          {
+            "desig":"System Engineer Trainee",
+            "role": "Backend Engineer",
+            "date":"Aug 2012",
+            "task":[
+              "Handling Various Data source for building ML piplelines",
+              "Segmentation and cluserting on various reatil product database"
+            ]
+          }
+        ]
+    },
+    "certification":{
+      "title":"Certification & Trainings",
+      "sub_title":"Learning never exhausts the mind.",
+      "items":[
+        {
+          "title":"Deep Learning Specilization",
+          "source":"Coursera",
+      
+          "logo": "https://www.vectorlogo.zone/logos/coursera/coursera-ar21.svg",
+          "url":"https://www.coursera.org/account/accomplishments/specialization/G9BU6M6NP8KQ",
+          "subtopics":[
+            {
+              "title":"Neural Networks and Deep Learning",
+              "suburl":"https://www.coursera.org/account/accomplishments/verify/KJW4VJJ8GKFC"
+            },
+            {
+              "title":"Structuring ML Projects",
+              "suburl":"https://www.coursera.org/account/accomplishments/verify/HSAYYFRUXLM9"
+            },
+            {
+              "title":"Improving Deep Neural Networks",
+              "suburl":"https://www.coursera.org/account/accomplishments/verify/7LJTMTL3SM2K"
+            },{
+              "title":"Convolutional Neural Networks",
+              "suburl":"https://www.coursera.org/account/accomplishments/verify/4DXE2DR3B6ZN"
+            },
+            {
+              "title":"Sequence Models",
+              "suburl":"https://www.coursera.org/account/accomplishments/verify/PJGX3DW4N5G9"
+            }
+          ]
+        },{
+          "title":"3D Reconstruction from Image ",
+          "details":"This specialization presents the first comprehensive treatment of the foundations of computer vision. This course focuses on the recovery of the 3D structure of a scene from its 2D images.",
+          "source":"Coursera",
+          "logo":"https://www.vectorlogo.zone/logos/coursera/coursera-ar21.svg",
+          "url":"https://www.coursera.org/account/accomplishments/verify/N57QGYMJKW3K"
+        },{
+          "title":"Google Cloud architect ",
+          "source":"Coursera",
+          "logo":"https://www.vectorlogo.zone/logos/coursera/coursera-ar21.svg",
+          "url":"https://www.coursera.org/account/accomplishments/certificate/PQ24BMT3U4H5",
+          "subtopics":[
+            {
+              "title":"Google Cloud Fundamentals",
+              "subrl": "https://www.coursera.org/account/accomplishments/certificate/F6PVH5BJ5WRW"
+            },
+            {
+              "title":"Google Cloud Infrastructure",
+              "subrl": "https://www.coursera.org/account/accomplishments/certificate/PQ24BMT3U4H5"
+            },
+            {
+              "title":"Google Core Services",
+              "subrl": "https://www.coursera.org/account/accomplishments/certificate/69JF5URD72BV"
+            },
+            {
+              "title":"Scaling and Automation",
+              "subrl": "https://www.coursera.org/account/accomplishments/certificate/UWKECY44XMQU"
+            },
+            {
+              "title":"Google Kubernetes Engine",
+              "subrl": "https://www.coursera.org/account/accomplishments/certificate/SWEV92PPQ2RU"
+            }
+          ]
+        },{
+          "title":"Modern Javascript Bootcamp",
+          "source":"udemy",
+          "details": "The comprehensive and in-depth JavaScript course ,in great detail. It's a huge course because it's packed with important knowledge and helpful content. From the core basics, over advanced concepts and JavaScript specialties",
+          "logo": "https://www.vectorlogo.zone/logos/udemy/udemy-ar21.svg",
+          "url":"https://www.udemy.com/certificate/UC-fd20264f-51dd-4c8f-b9c7-8e5ee8997c6d/"
+        }]
+    },
+    "education":{
+        "title": "Education",
+        "sub_title" : "Data Science, ML Engineer",
+        "items":[
+            {
+                "degree": "M.tech, Communication Engg",
+                "University": "NIT Durgapur",
+                "period": "2010-2012",
+                "marks": "CGPA 9.1",
+                "url": "https://nitdgp.ac.in/"
+            },
+            {
+                "degree": "B.tech, Electronics & Communication Engg",
+                "University": "West Bengal University of technology",
+                "period": "2005-2009",
+                "marks": "CGPA 8.5",
+                "url" : "https://makautwb.ac.in/"
+            },
+            {
+                "degree": "Higher secondary",
+                "University": "West Bengal Board of Higher Secondary Education",
+                "period": "2003-2005",
+                "marks": "81%",
+                "url" : "https://wbchse.nic.in/"
+            },
+            {
+                "degree": "Secondary",
+                "University": "West Bengal Board of Secondary Education",
+                "period": "2001-2003",
+                "marks": "71%",
+                "url" : "https://wbbse.wb.gov.in/"
+            }
+        ]
+    },
+    "footer":{
+      "repolink" : "https://github.com/RahulDas-dev/portfolio.git",
+      "line1": "Designed & Built by Rahul Das  ",
+      "line2": "A framework-free, responsive design bundled with vite."
+    }
+}
+
+
+

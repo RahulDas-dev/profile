@@ -1,0 +1,19 @@
+<section class="cerification section container" >
+    <div class="section-header">
+        <h1 class="section__title">{{certification.title}}</h1>
+        <div class="hline"></div>
+    </div>
+    <div>
+        <h3 class="section__subtitle">{{certification.sub_title}}</h3>
+    </div>
+    <div class="cerification__content" id="cert-list"> 
+        {{!-- <div class="qualification__item" data-date="2010-2012" data-inst="NIT DGP">M.tech</div> --}}
+        {{#each certification.items}}
+            {{> certificationcard }}
+        {{/each}}
+    </div>
+    <div class="btn-scroll-left">
+            {{!-- <button id="show-more-btn"><i class="uil uil-angle-right-b"></i></button> --}}
+        <a>left</a>
+    </div>
+</section>

@@ -1,0 +1,18 @@
+<section class="education section container" id="education">
+    <div class="section-header">
+        <h1 class="section__title">{{education.title}}</h1>
+        <div class="hline"></div>
+    </div>
+    <div class="education-content">
+        {{#each education.items}}
+            <div class="education-item">
+                <div class="edu-priod">{{this.period}}</div>
+                <div class="edu-data">
+                    <div class="edu-univ"><a href={{ this.url }} target="_blank">{{this.University}}</a></div>
+                    <div><i class="fa-solid fa-paperclip edu-icon"></i>  {{this.degree}}</div>
+                    <div><i class="fa-solid fa-paperclip edu-icon"></i>  {{this.marks}}</div>
+                </div>
+            </div>
+        {{/each}}
+    </div>
+</section>

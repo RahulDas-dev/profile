@@ -1,0 +1,52 @@
+section.home{
+  @apply vsm:mt-10 md:mt-28 relative;
+}
+
+section.home>.home__content{
+  @apply justify-center items-center md:gap-10 vsm:gap-5 flex;
+  @apply vsm:flex-col md:flex-row-reverse;
+}
+
+section.home>.home__content>.home__img{
+  max-width: 200px;
+  flex: 1;
+}
+
+section.home>.home__content>.home__img>img{
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
+section.home>.home__content>.home__img:hover img{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+section.home>.home__content>.home__data{
+  flex: 1;
+}
+
+section.home>.home__content>.home__data>.home__title{
+  @apply md:text-4xl md:font-semibold vsm:text-2xl vsm:font-semibold mt-10 mb-5 tracking-wider;
+}
+
+section.home>.home__content>.home__data>.home__subtitle{
+  @apply md:text-xl md:font-medium vsm:text-xl vsm:font-medium mb-5 tracking-wider;
+}
+
+section.home>.home__content>.home__data>.home__description{
+  @apply mb-10 text-justify tracking-wide text-pretty text-neutral-600 text-base;
+}
+
+section.home>.home__social{
+  @apply md:absolute md:top-12 md:left-10 flex flex-col items-center justify-start;
+}
+
+section.home>.home__social>.vline{
+  height: 45vh;
+  width: 20px;
+  @apply bg-prime vsm:hidden md:visible;
+}
