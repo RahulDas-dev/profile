@@ -34,11 +34,11 @@ section.home>.home__content>.home__data>.home__title{
 }
 
 section.home>.home__content>.home__data>.home__subtitle{
-  @apply md:text-xl md:font-medium vsm:text-xl vsm:font-medium mb-5 tracking-wider;
+  @apply md:text-xl md:font-medium vsm:text-xl vsm:font-medium mb-5 tracking-wider font-mono;
 }
 
 section.home>.home__content>.home__data>.home__description{
-  @apply mb-10 text-justify tracking-wide text-pretty text-neutral-600 text-base;
+  @apply mb-10 text-justify tracking-wide text-pretty text-neutral-600 text-sm font-mono;
 }
 
 section.home>.home__social{

@@ -18,11 +18,32 @@
   background: url('../assets/experience.svg');
 }
 
+.icon-linkedin{
+  background: url('../assets/linkedin.svg')
+}
+
+.icon-github{
+  background: url('../assets/github.svg')
+}
+
+.icon-twitter{
+  background: url('../assets/twitter.svg')
+}
+
 .svg-icon {
   @apply font-normal not-italic text-base inline-block leading-4 normal-case tracking-normal whitespace-normal bg-no-repeat bg-cover antialiased;
   opacity: 0.7;
   height: 20px;
   width: 20px;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+}
+
+.social-icon {
+  @apply font-normal not-italic text-base inline-block leading-4 normal-case tracking-normal whitespace-normal bg-no-repeat bg-cover antialiased;
+  @apply opacity-70 hover:opacity-100;
+  height: 28px;
+  width: 28px;
   /* Support for Safari and Chrome. */
   text-rendering: optimizeLegibility;
 }
