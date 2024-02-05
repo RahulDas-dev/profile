@@ -1,5 +1,5 @@
 footer.footer{
-  @apply text-center font-mono pt-10 pb-2 font-thin fixed bottom-0 w-full;
+  @apply text-center font-mono pt-20 pb-2 font-thin fixed bottom-0 w-full;
 }
 footer.footer small{
   @apply text-gray-600 pr-1;
