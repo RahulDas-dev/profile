@@ -30,6 +30,10 @@
   background: url('../assets/twitter.svg')
 }
 
+.icon-git-branch{
+  background: url('../assets/git-branch.svg')
+}
+
 .svg-icon {
   @apply font-normal not-italic text-base inline-block leading-4 normal-case tracking-normal whitespace-normal bg-no-repeat bg-cover antialiased;
   opacity: 0.7;
@@ -44,6 +48,15 @@
   @apply opacity-70 hover:opacity-100;
   height: 28px;
   width: 28px;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+}
+
+.footer-icon{
+  @apply font-normal not-italic text-base inline-block leading-4 normal-case tracking-normal whitespace-normal bg-no-repeat bg-cover antialiased;
+  opacity: 0.7;
+  height: 14px;
+  width: 14px;
   /* Support for Safari and Chrome. */
   text-rendering: optimizeLegibility;
 }

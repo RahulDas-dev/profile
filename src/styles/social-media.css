@@ -1,5 +1,5 @@
 main.main>.home__social{
-  @apply md:absolute md:top-12 md:left-14 flex flex-col items-center justify-start;
+  @apply absolute vsm:top-24 md:top-12 vsm:left-10 md:left-14 flex flex-col items-center justify-start;
 }
 
 main.main>.home__social>.home__social-icon{
