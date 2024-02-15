@@ -1,21 +1,19 @@
 <div class="home__social">
     <div class="vline-left"></div>
-    <a href={{ personal.linkedin }} target="_blank" class="home__social-icon">
-        {{!-- <i class="uil uil-linkedin-alt"></i> --}}
-        <i class="icon-linkedin social-icon mt-2"></i>
-    </a>
-    <a href={{ personal.github }} target="_blank" class="home__social-icon">
-        {{!-- <i class="uil uil-github-alt"></i> --}}
+    
+    <a href={{ personal.github }} target="_blank" class="social-tag">
         <i class="icon-github social-icon"></i>
     </a>
-    <a href={{ personal.twitter }} target="_blank" class="home__social-icon">
-        {{!-- <i class="uil uil-twitter-alt"></i> --}}
+    <a href={{ personal.twitter }} target="_blank" class="social-tag">
         <i class="icon-twitter social-icon"></i>
+    </a>
+
+    <a href={{ personal.linkedin }} target="_blank" class="social-tag" style="cursor: pointer;">
+        <i class="icon-linkedin social-icon "></i>
     </a>
 </div>
 <div class="mail-info">
     <div class="mail-data">
-        <i class="uil uil-envelope mail-icon"></i>
         {{personal.mail}}
     </div>
     <div class="vline-right"></div>

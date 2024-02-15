@@ -8,8 +8,14 @@ html {
 }
 
 body {
-  @apply antialiased font-body text-gray-600 bg-neutral-50;
+  @apply antialiased font-body text-gray-600 bg-neutral-50 dark:text-gray-400 dark:bg-neutral-700;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@layer base {
+  a {
+    @apply cursor-pointer no-underline text-prime;
+  }
 }
 
 @layer components{

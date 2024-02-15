@@ -1,5 +1,5 @@
 body>header{
-  @apply fixed w-full top-0 left-0 shadow-sm shadow-indigo-500/40 z-50  transition-all ease-in-out delay-75 bg-inherit;
+  @apply fixed w-full top-0 left-0 shadow-sm shadow-indigo-500/40 dark:shadow-gray-400/50 z-50  transition-all ease-in-out delay-75 bg-inherit;
 }
 
 body>header>nav{
@@ -7,7 +7,7 @@ body>header>nav{
 }
 
 body>header>nav .nav__logo{
-  @apply font-semibold text-gray-600 text-lg hover:text-prime transition ease-in-out delay-300 cursor-pointer tracking-wide;
+  @apply font-semibold text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-lg hover:text-prime transition ease-in-out delay-300 cursor-pointer tracking-wide;
 }
 
 body>header>nav .nav__btn{

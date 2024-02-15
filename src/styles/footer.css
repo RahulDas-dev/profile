@@ -2,13 +2,5 @@ footer.footer{
   @apply text-center font-mono pt-20 pb-2 font-thin  w-full;
 }
 footer.footer small{
-  @apply text-gray-600 pr-1;
-}
-
-footer.footer .footer-git-link{
-  @apply pr-2 text-xs text-prime transition-colors delay-75 ease-in-out align-middle hover:text-blue-700;  
-}
-
-footer.footer .footer-info{
-  @apply inline-flex items-center justify-center;
+  @apply pr-1;
 }
