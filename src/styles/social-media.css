@@ -13,22 +13,22 @@ main.main>.home__social>.social-tag>.social-icon{
 main.main>.home__social>.vline-left{
   height: 35vh;
   width: 2px;
-  @apply bg-prime md:block vsm:hidden opacity-55;
+  @apply bg-prime dark:bg-neutral-200 md:block vsm:hidden opacity-55 ;
 }
 
 main.main>.mail-info>.vline-right{
   height: 35vh;
   width: 2px;
-  @apply bg-prime md:block vsm:hidden opacity-55;
+  @apply bg-prime dark:bg-neutral-200 md:block vsm:hidden opacity-55;
 }
 
 
 main.main>.mail-info{
-  @apply md:fixed md:bottom-0 md:right-14 md:flex vsm:hidden md:flex-col md:items-center md:justify-center
+  @apply md:fixed md:bottom-0 md:right-14 md:flex vsm:hidden md:flex-col md:items-center md:justify-center w-8
 }
 
 main.main>.mail-info>.mail-data{
   text-orientation: mixed;
   writing-mode: vertical-rl;
-  @apply text-lg text-prime pb-2 opacity-55 font-mono;
+  @apply text-lg text-prime dark:text-neutral-200 pb-2 opacity-55 font-mono;
 }

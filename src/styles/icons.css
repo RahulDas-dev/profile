@@ -45,7 +45,7 @@
 
 .social-icon {
   @apply font-normal not-italic text-base inline-block leading-4 normal-case tracking-normal whitespace-normal bg-no-repeat bg-cover antialiased;
-  @apply opacity-70 hover:opacity-100 transition-opacity ease-in-out delay-75;
+  @apply opacity-65 hover:opacity-100 transition-opacity ease-in-out delay-75;
   height: 28px;
   width: 28px;
   /* Support for Safari and Chrome. */
