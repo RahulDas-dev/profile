@@ -1,0 +1,46 @@
+section.overview{
+  @apply vsm:mt-28 md:mt-36 relative;
+}
+
+section.overview>.container>.section__title{
+  @apply text-center md:text-2xl md:font-semibold vsm:text-2xl vsm:font-semibold mt-10 mb-5 tracking-wide pb-12;
+}
+
+section.overview>.container>.section_description{
+  @apply mb-10 text-justify tracking-wide text-pretty text-sm font-mono pb-12;
+}
+
+section.overview>.container>.overview__content{
+  /* @apply mb-10 text-justify tracking-wide text-pretty text-sm font-mono pb-12; */
+  @apply grid gap-4 mx-4 vsm:grid-cols-12  mb-10 text-justify tracking-wide text-pretty text-sm font-mono
+}
+
+section.overview>.container>.overview__content>.left_section{
+  @apply vsm:col-span-12 md:col-span-3;
+}
+
+section.overview>.container>.overview__content>.left_section>.left_content{
+  @apply text-center vsm:text-left mb-14 ;
+}
+
+section.overview>.container>.overview__content>.right_section{
+  @apply relative px-4 space-y-6 vsm:col-span-12 md:col-span-9;
+}
+
+section.overview>.container>.overview__content>.right_section>.right_content{
+  @apply col-span-12 space-y-12 relative px-4 vsm:col-span-8 vsm:space-y-8 vsm:before:absolute vsm:before:top-2 vsm:before:bottom-0 vsm:before:w-0.5 vsm:before:-left-3 before:dark:bg-neutral-800  before:bg-neutral-300;
+}
+
+section.overview>.container>.overview__content>.right_section>.right_content>.card{
+  @apply flex flex-col vsm:relative vsm:before:absolute vsm:before:top-2 vsm:before:border-zinc-200 vsm:before:dark:border-zinc-700 vsm:before:border-4 vsm:before:w-4 vsm:before:h-4 vsm:before:rounded-full  vsm:before:left-[-35px] vsm:before:z-[1] before:dark:bg-zinc-800 before:bg-zinc-300;
+}
+
+
+section.overview>.container>.overview__content>.right_section>.right_content>.card>.card-title{
+  @apply font-bold text-neutral-500 dark:text-neutral-300 tracking-tight;
+}
+
+
+section.overview>.container>.overview__content>.right_section>.right_content>.card>.card-time{
+  @apply text-xs tracking-wider uppercase ;
+}

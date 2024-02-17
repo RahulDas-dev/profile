@@ -23,15 +23,17 @@
     },
     "title": "Hi, I am Rahul",
     "sub_title" : "Data Science, ML Engineer",
-    "content": "Welcome to my professional space! With 11 years of expertise in software development, I have honed my skills in crafting innovative solutions and pushing the boundaries of what technology can achieve. Over the past 6+ years, I have immersed myself in the dynamic field of Machine Learning and Artificial Intelligence, contributing to the evolution of these cutting-edge technologies.",
-    "experience":{
-        "title": "Work Experience",
+    "content": "Welcome to my professional space! With 11 years of expertise in software development, I have honed my skills in crafting innovative solutions and pushing the boundaries of what technology can achieve. Over the past 6+ years, I have immersed myself in the dynamic field of Machine Learning [ML] and Artificial Intelligence [AI], contributing to the evolution of these cutting-edge technologies.",
+    "overview":{
+        "title": "My Journey So Far !",
         "sub_title":"Work Experience",
+        "current-role":"Driving innovation at Infosys Edgeverve as a Machine Learning Engineer, specializing in developing cutting-edge AI solutions like GPT for Finacle and Build automl framework for enhancing banking solutions.",
         "items":[
           {
             "desig":"Assistant Consultant",
-            "role": "Data Scientist & ML Engineer",
-            "date":"Jun 2021",
+            "role": "Senior Machine Learning Engineer at Infosys, EdgeVerve",
+            "date":"Mar 2023",
+            "content": "Develope Auto ML Framework from Scratch, Work on multiple use cases of banking and finantial domain",
             "task":[
               "Handling Various Data source for building ML piplelines",
               "Segmentation and cluserting on various reatil product database"
@@ -39,8 +41,9 @@
           },
           {
             "desig":"IT Analyst",
-            "role": "Data Scientist & ML Engineer",
+            "role": "Machine Learning Engineer at TCS",
             "date":"Aug 2016",
+            "content": "TCS gave me the oppertunity to learn the basics ML and Deep learning, later on applied my knowlwge handeling various kind structre and unstarucre data related to Retails Domain.",
             "task":[
               "Handling Various Data source for building ML piplelines",
               "Segmentation and cluserting on various reatil product database"
@@ -48,8 +51,9 @@
           },
           {
             "desig":"System Engineer",
-            "role": "Backend Engineer",
-            "date":"Aug 2014",
+            "role": "Backend Developer at TCS",
+            "content": "My journy to Backend debvelopmet start from here, ",
+            "date":"Aug 2012",
             "task":[
               "Handling Various Data source for building ML piplelines",
               "Segmentation and cluserting on various reatil product database"
@@ -57,8 +61,9 @@
           },
           {
             "desig":"System Engineer Trainee",
-            "role": "Backend Engineer",
-            "date":"Aug 2012",
+            "role": "M.Tech From NIT Durgapur",
+            "content": "Mtech on Telecommunication means simulating various network protocal, chennel modulation using Matlab ",
+            "date":"Aug 2010",
             "task":[
               "Handling Various Data source for building ML piplelines",
               "Segmentation and cluserting on various reatil product database"
@@ -171,6 +176,10 @@
                 "url" : "https://wbbse.wb.gov.in/"
             }
         ]
+    },
+    "contact":{
+      "title": "Get In Touch",
+      "description": "Although I’m not currently looking for any new opportunities, but my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!"
     },
     "footer":{
       "repolink" : "https://github.com/RahulDas-dev/profile",

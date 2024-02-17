@@ -2,7 +2,7 @@ footer.footer{
   @apply text-center font-mono pt-20 pb-2 font-thin  w-full;
 }
 footer.footer small{
-  @apply pr-1 text-xs;
+  @apply pr-1 text-xs tracking-tight;
 }
 
 footer.footer>.line-1{

@@ -1,0 +1,24 @@
+<section class="overview" id="overview">
+    <div class="container">
+        <h1 class="section__title">{{ overview.title }}</h1>
+        <div class="overview__content">            
+            <div class="left_section">
+                <div class="left_content">
+                    <h3 class="text-lg mb-2">Current Role</h3>
+                    <span class="text-xs tracking-wide dark:text-gray-400">{{overview.current-role}}</span>
+                </div>
+            </div>
+            <div class="right_section">
+                <div class="right_content">
+                    {{#each overview.items}}
+                    <div class="card">
+                        <h3 class="card-title"> {{ this.role}} </h3>
+                        <time class="card-time"> {{ this.date}} </time>
+                        <p class="mt-3 text-neutral-500 dark:text-neutral-300">{{this.content}}</p>
+                    </div>
+                    {{/each}}
+                </div>
+            </div>
+        </div>   
+    </div>
+</section>
