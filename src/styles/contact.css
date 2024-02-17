@@ -1,0 +1,19 @@
+section.contact{
+  @apply vsm:mt-10 md:mt-28 relative;
+}
+
+section.contact>.container>.section__title{
+  @apply text-center md:text-2xl md:font-semibold vsm:text-2xl vsm:font-semibold mt-10 mb-5 tracking-wide pb-12;
+}
+
+section.contact>.container>.section_description{
+  @apply mb-10 text-justify tracking-wide text-pretty text-sm font-mono pb-12;
+}
+
+section.contact>.container>.contact__content{
+  @apply text-center pb-12 font-mono;
+}
+
+section.contact>.container>.contact__content>.mail-data{
+  @apply font-mono px-2 py-3 rounded-md bg-slate-200 dark:bg-zinc-800 tracking-wide;
+}

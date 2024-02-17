@@ -1,5 +1,5 @@
 main.main>.home__social{
-  @apply fixed vsm:top-12 md:top-12 vsm:left-10 md:left-14 flex flex-col items-center justify-start z-40 vsm:w-8;
+  @apply vsm:hidden md:flex fixed md:top-12 md:left-14 md:flex-col md:items-center md:justify-start z-40 ;
 }
 
 main.main>.home__social>.social-tag{
@@ -30,5 +30,5 @@ main.main>.mail-info{
 main.main>.mail-info>.mail-data{
   text-orientation: mixed;
   writing-mode: vertical-rl;
-  @apply text-lg text-prime dark:text-neutral-200 pb-2 opacity-55 font-mono;
+  @apply text-sm tracking-wide text-prime dark:text-neutral-200 pb-2 opacity-55 font-mono;
 }

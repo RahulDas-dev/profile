@@ -15,7 +15,7 @@ body>header>nav .nav__btn{
 }
 
 body>header>nav .hide-menu{
-  @apply  vsm:invisible md:visible;
+  @apply vsm:invisible md:visible;
 }   
 
 body>header>nav ul{
@@ -28,15 +28,16 @@ body>header>nav ul>.nav__item{
 }
 
 body>header>nav ul>.nav__item>.nav__link{
-  @apply md:relative md:tracking-wide md:block md:truncate; 
+  @apply md:relative md:tracking-wide md:block md:truncate text-gray-600 dark:text-gray-400; 
   @apply vsm:tracking-wide vsm:flex vsm:flex-row vsm:items-center vsm:justify-start vsm:gap-6;
 }
 
-body>header>nav ul>.nav__item>.nav__link::after{
+/* body>header>nav ul>.nav__item>.nav__link::after{
   @apply absolute top-0 left-0 w-full content-gap h-4 bg-blue-800;
   @apply vsm:content-none;
-}
+} */
 
 body>header>nav ul>.nav__item>.nav__link>.nav__icon{
-  @apply md:hidden text-gray-600;
+  @apply md:hidden;
+  color: #3e3d3d;
 }
