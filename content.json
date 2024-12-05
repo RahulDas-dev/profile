@@ -7,18 +7,18 @@
     },
     "personal": {
         "name" : "Rahul Das",
-        "dob" : "13-03-1988",
+        "dob" : "**-**-****",
         "address":{
             "line" : "Andul Road ",
             "city": "Kolkata",
             "state": "West Bengal",
             "country": "India",
-            "pin":"711109"
+            "pin":"******"
         },
         "github":"https://github.com/RahulDas-dev",
         "twitter":"https://twitter.com/Rahul13031988",
         "linkedin":"https://www.linkedin.com/in/rahul-das-15416570",
-        "mobile": "8097397804",
+        "mobile": "**********",
         "mail":"r.das699@gmail.com"
     },
     "title": "Hi, I am Rahul",
@@ -176,6 +176,27 @@
                 "url" : "https://wbbse.wb.gov.in/"
             }
         ]
+    },
+    "blogs":{
+      "title":"My Blog Space",
+      "description": "My blogs document a growing knowledge base, shaped by daily exploration in tech and data science.",
+      "items":[
+        {
+          "title":"The Math Behind OLS Regression",
+          "url":"https://rahuldas-dev.github.io/blogs/ols/"
+        },
+        {
+          "title":"The Math Behind OLS Regression",
+          "url":"https://rahuldas-dev.github.io/blogs/ols/"
+        },
+        {
+          "title":"The Math Behind OLS Regression",
+          "url":"https://rahuldas-dev.github.io/blogs/ols/"
+        },{
+          "title":"The Math Behind OLS Regression",
+          "url":"https://rahuldas-dev.github.io/blogs/ols/"
+        } 
+      ]
     },
     "contact":{
       "title": "Get In Touch",

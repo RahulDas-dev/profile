@@ -1,0 +1,20 @@
+section.blogs{
+  @apply vsm:mt-28 md:mt-36;
+}
+
+section.blogs>div>.section__title{
+  @apply text-left md:text-2xl md:font-semibold vsm:text-2xl vsm:font-semibold mt-10 mb-5 tracking-wide pb-12;
+}
+
+section.blogs>div>.section_description{
+  @apply md:text-xl md:font-medium vsm:text-xl vsm:font-medium mb-5 tracking-wider font-mono;
+}
+
+section.blogs>.blogs__content{
+  /* @apply mb-10 text-justify tracking-wide text-pretty text-sm font-mono pb-12; */
+  @apply flex flex-row justify-center overflow-hidden py-6 mt-10 w-full flex-nowrap gap-x-5;
+}
+
+section.blogs>.blogs__content .blogs_card:nth-child(n+7) {
+  @apply hidden; /* Hide all cards after the 3rd one */
+}

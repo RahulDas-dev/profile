@@ -34,6 +34,10 @@
   background: url('../assets/moon.svg')
 }
 
+.icon-blogs{
+  background: url('../assets/blogs.svg')
+}
+
 .svg-icon {
   @apply font-normal not-italic text-base inline-block leading-4 normal-case tracking-normal whitespace-normal bg-no-repeat bg-cover antialiased;
   opacity: 0.7;
