@@ -1,21 +1,15 @@
-
-<div
-    class="flex-shrink-0 group relative w-100 h-64 cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
-    <span class="absolute top-10 z-0 h-20 w-20 rounded-full bg-indigo-400 transition-all duration-300 group-hover:scale-[10]"></span>
+<a href="{{this.url}}" target="_blank"
+    class="flex-shrink-0 scroll-smooth group relative w-100 h-64 cursor-pointer overflow-hidden p-6 shadow-slate-50 dark:shadow-none shadow-xl bg-neutral-200 dark:bg-neutral-800 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl vsm:max-w-sm vsm:rounded-lg ">
+    <span
+        class="absolute top-10 z-0 h-20 w-20 rounded-full group-hover:bg-indigo-400 transition-all duration-300 group-hover:scale-[10]"></span>
     <div class="relative z-10 mx-auto max-w-md">
-        <span class="grid h-20 w-20 place-items-center rounded-full bg-indigo-400 transition-all duration-300 group-hover:bg-indigo-600">
-          <i class="icon-blogs social-icon"></i>
-        </span>
         <div
-            class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
-            <p>{{this.title}}</p>
+            class="space-y-6 pt-5 leading-7 text-gray-500 dark:text-gray-400 font-semibold font-mono transition-all duration-300 group-hover:text-white/90">
+            {{this.title}}
         </div>
-        <div class="pt-5 text-base font-semibold leading-7">
-            <p>
-                <a href={{this.url}} target="_blank" class="text-indigo-600 transition-all duration-300 group-hover:text-white">Read the docs
-                    &rarr;
-                </a>
-            </p>
+        <div class="pt-5 text-base font-semibold font-mono leading-7">
+            <span class="text-indigo-400 transition-all duration-300 group-hover:text-white">Read the content &rarr;
+            </span>
         </div>
     </div>
-</div>
+</a>

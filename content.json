@@ -23,7 +23,7 @@
     },
     "title": "Hi, I am Rahul",
     "sub_title" : "Data Science, ML Engineer",
-    "content": "Welcome to my professional space! With +12 years of expertise in software development, I have honed my skills in crafting innovative solutions and pushing the boundaries of what technology can achieve. Over the past 6+ years, I have immersed myself in the dynamic field of Machine Learning [ML] and Artificial Intelligence [AI], contributing to the evolution of these cutting-edge technologies.",
+    "content": "Welcome to my professional space! With 12+ years of expertise in software development, I have honed my skills in crafting innovative solutions and pushing the boundaries of what technology can achieve. Over the past 6+ years, I have immersed myself in the dynamic field of Machine Learning [ML] and Artificial Intelligence [AI], contributing to the evolution of these cutting-edge technologies.",
     "overview":{
         "title": "My Journey So Far !",
         "sub_title":"Work Experience",
@@ -186,14 +186,14 @@
           "url":"https://rahuldas-dev.github.io/blogs/ols/"
         },
         {
-          "title":"The Math Behind OLS Regression",
+          "title":"Calculas of Vector and Matrix",
           "url":"https://rahuldas-dev.github.io/blogs/ols/"
         },
         {
-          "title":"The Math Behind OLS Regression",
+          "title":"How Cat-Boost handles Categorical Features",
           "url":"https://rahuldas-dev.github.io/blogs/ols/"
         },{
-          "title":"The Math Behind OLS Regression",
+          "title":"Popular Assumptions in Machine Learning",
           "url":"https://rahuldas-dev.github.io/blogs/ols/"
         } 
       ]
