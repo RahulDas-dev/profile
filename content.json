@@ -23,17 +23,17 @@
     },
     "title": "Hi, I am Rahul",
     "sub_title" : "Data Science, ML Engineer",
-    "content": "Welcome to my professional space! With 12+ years of expertise in software development, I have honed my skills in crafting innovative solutions and pushing the boundaries of what technology can achieve. Over the past 6+ years, I have immersed myself in the dynamic field of Machine Learning [ML] and Artificial Intelligence [AI], contributing to the evolution of these cutting-edge technologies.",
+    "content": "Welcome to my professional space! With over 12 years of expertise in software development, I have honed my skills in crafting innovative solutions and pushing the boundaries of what technology can achieve. For the past six years, I have been deeply immersed in the dynamic fields of Machine Learning (ML) and Artificial Intelligence (AI), contributing to the advancement of these cutting-edge technologies",
     "overview":{
         "title": "My Journey So Far !",
         "sub_title":"Work Experience",
-        "current-role":"Driving innovation at Infosys Edgeverve as a Machine Learning Engineer, specializing in developing cutting-edge AI solutions like GPT for Finacle and Build automl framework for enhancing banking solutions.",
+        "current-role":"Driving innovation at Infosys EdgeVerve as a Machine Learning Engineer, specializing in developing advanced ML and Generative AI solutions for the Finacle Banking System.",
         "items":[
           {
             "desig":"Assistant Consultant",
             "role": "Senior Machine Learning Engineer at Infosys, EdgeVerve",
             "date":"Mar 2023",
-            "content": "Develope Auto ML Framework from Scratch, Work on multiple use cases of banking and finantial domain",
+            "content": "Developed an AutoML framework from scratch, addressing multiple use cases in the banking and financial domain.",
             "task":[
               "Handling Various Data source for building ML piplelines",
               "Segmentation and cluserting on various reatil product database"
@@ -43,7 +43,7 @@
             "desig":"IT Analyst",
             "role": "Machine Learning Engineer at TCS",
             "date":"Aug 2016",
-            "content": "TCS gave me the oppertunity to learn the basics ML and Deep learning, later on applied my knowlwge handeling various kind structre and unstarucre data related to Retails Domain.",
+            "content": "TCS provided me with the opportunity to learn the fundamentals of Machine Learning and Deep Learning. I later applied this knowledge to various ML use cases in the retail domain.",
             "task":[
               "Handling Various Data source for building ML piplelines",
               "Segmentation and cluserting on various reatil product database"
@@ -52,7 +52,7 @@
           {
             "desig":"System Engineer",
             "role": "Backend Developer at TCS",
-            "content": "My journy to Backend debvelopmet start from here, ",
+            "content": "My journey into backend development started here.",
             "date":"Aug 2012",
             "task":[
               "Handling Various Data source for building ML piplelines",
@@ -182,19 +182,19 @@
       "description": "My blogs document a growing knowledge base, shaped by daily exploration in tech and data science.",
       "items":[
         {
+          "title":"A Journey through Gradient, Jacobian, and Hessian",
+          "url":"https://medium.com/@r.das699/vector-calculus-matrix-calculus-dfa4bf77cfdb"
+        },
+        {
           "title":"The Math Behind OLS Regression",
           "url":"https://rahuldas-dev.github.io/blogs/ols/"
         },
         {
-          "title":"Calculas of Vector and Matrix",
-          "url":"https://rahuldas-dev.github.io/blogs/ols/"
-        },
-        {
-          "title":"How Cat-Boost handles Categorical Features",
-          "url":"https://rahuldas-dev.github.io/blogs/ols/"
+          "title":"How I Manage Multiple Python Without Anaconda.",
+          "url":"https://medium.com/@r.das699/in-a-corporate-setting-utilizing-anaconda-without-a-valid-license-is-considered-an-offense-ce174f39de22"
         },{
-          "title":"Popular Assumptions in Machine Learning",
-          "url":"https://rahuldas-dev.github.io/blogs/ols/"
+          "title":"Get Ahead with Python 3.13: Leveraging Optional GIL for Enhanced Performance",
+          "url":"https://medium.com/@r.das699/get-ahead-with-python-3-13-leveraging-optional-gil-for-enhanced-performance-e0f812239ecd"
         } 
       ]
     },
