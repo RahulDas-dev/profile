@@ -16,18 +16,18 @@ section.blogs>.blogs__contentainer{
 
 section.blogs>.blogs__contentainer>.blogs__content{
   /* @apply mb-10 text-justify tracking-wide text-pretty text-sm font-mono pb-12; */
-  @apply flex flex-row justify-start overflow-hidden py-6 w-full flex-nowrap gap-x-5;
+  @apply flex flex-row justify-start overflow-hidden py-6 w-full flex-nowrap gap-x-5 ;
 }
 
 
 .btn-scroll-left, .btn-scroll-right {
-  @apply bg-transparent cursor-pointer z-10 absolute text-5xl p-5 top-1/4 translate-y-1/2 text-indigo-300 hover:text-indigo-500;
+  @apply bg-transparent cursor-pointer z-10 absolute text-5xl top-1/4 translate-y-1/2 text-indigo-300 hover:text-indigo-500;
 }
 
 .btn-scroll-left {
-  left: 0;
+  @apply  vsm:-left-1 md:-left-20 p-5;
 }
 
 .btn-scroll-right {
-  right: 0;
+  @apply  vsm:-right-1  md:-right-20 p-5;
 }
