@@ -15,4 +15,15 @@ if (nav_button) {
       nav_icon_menu!.classList.toggle('hidden')
       nav_icon_cross!.classList.toggle('hidden')
     })
+    
+    const nav_items = document.querySelectorAll('.nav__item')
+    let nav_icon_menu = document.getElementById('nav-btn-menu-icon')
+    let nav_icon_cross = document.getElementById('nav-btn-cross-icon')
+    nav_items.forEach((item)=>{
+        item.addEventListener('click',()=>{
+            nav_menu!.classList.toggle('hide-menu')
+            nav_icon_menu!.classList.toggle('hidden')
+            nav_icon_cross!.classList.toggle('hidden')
+        })
+    })
 }
